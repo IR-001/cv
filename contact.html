@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+	</head>
+	<body>
+		<h1>Contact Details</h1>
+		<p>Address : xxxx</p>
+		<p>Phone : xxxx</p>
+		<p>Email : xxxx</p>
+		<form
+			action="mailto:hisageirwan01@gmail.com"
+			method="post"
+			enctype="text/plain"
+		>
+			<label>Nama</label>
+			<input
+				size="30"
+				type="text"
+				name="name"
+				maxlength="100"
+				placeholder="Masukkan nama"
+			/>
+			<br /><br />
+			<label>Email</label>
+			<input
+				size="30"
+				type="email"
+				name="email"
+				maxlength="100"
+				placeholder="Masukkan email"
+			/>
+			<br /><br />
+			<label>Pesan</label>
+			<textarea
+				name="message"
+				rows="5"
+				cols="30"
+				maxlength="225"
+				placeholder="Tuliskan pessan"
+			></textarea>
+			<br /><br />
+			<input type="submit" value="Kirim Pesan" />
+		</form>
+	</body>
+</html>
